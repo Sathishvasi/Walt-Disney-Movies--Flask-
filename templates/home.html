@@ -1,0 +1,77 @@
+{% extends 'layout.html' %} 
+
+{% block body %}
+
+
+
+<div class="carousel slide" data-ride="carousel" id="carousel-1">
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="jumbotron hero-nature carousel-hero darkness">
+                <div class="container" style="margin-top: 10vh;">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="slides-text probootstrap-animate fadeInUp probootstrap-animated">
+                                <h1 class="hero-title">Moana</h1>
+                                <p class="hero-subtitle">Moana sets on a voyage to persuade Maui, a demigod, to return the heart of the goddess, Te Fitti, after her islands crops and fish start dying.</p>
+                                <p>
+                                    <a class="btn btn-primary btn-lg hero-button" role="button" href="#" onclick="changeVideo('LKFuXETZUsI')">View Trailer</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="jumbotron hero-photography carousel-hero darkness">
+                <div class="container" style="margin-top: 10vh;">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="slides-text probootstrap-animate fadeInUp probootstrap-animated">
+                                <h1 class="hero-title">Co Co</h1>
+                                <p class="hero-subtitle">Despite his family's generations-old ban on music, young Miguel dreams of becoming an accomplished musician like his idol Ernesto de la Cruz.</p>
+                                <p>
+                                    <a class="btn btn-primary btn-lg hero-button" role="button" onclick="changeVideo('jjudmcSxzpc')" href="#">View Trailer</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="jumbotron hero-technology carousel-hero darkness">
+                <div class="container" style="margin-top: 10vh;">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="slides-text probootstrap-animate fadeInUp probootstrap-animated">
+                                <h1 class="hero-title">Tangled</h1>
+                                <p class="hero-subtitle">Rapunzel, an innocent, young girl, is locked up by her overly protective mother. Her wish to escape into the world outside finally comes true when she meets the good-hearted thief, Flynn</p>
+                                <p>
+                                        <a class="btn btn-primary btn-lg hero-button" role="button" onclick="changeVideo('ycoY201RTRo')" href="#">View Trailer</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+        <li data-target="#carousel-1" data-slide-to="2"></li>
+    </ol>
+</div>
+{% endblock %}

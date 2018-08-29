@@ -1,0 +1,196 @@
+body{
+  background-color: black;
+  color: white;
+}
+.snip1527 {
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.15);
+    color:#ffffff;
+    float:left;
+    font-family:'Lato', Arial, sans-serif;
+    font-size:16px;
+    margin:10px 1%;
+    max-width:310px;
+    min-width:250px;
+    overflow:hidden;
+    position:relative;
+    text-align:left;
+    width:100%;
+    height: 448px;
+    border-radius: 8px;
+  }
+  
+  .snip1527 * {
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-transition:all 0.25s ease;
+    transition:all 0.25s ease;
+  }
+  
+  .snip1527 img {
+    max-width:100%;
+    vertical-align:top;
+    position:relative;
+    height: 448px;
+    width: 320px;
+  }
+  
+  .snip1527 figcaption {
+    padding:25px 20px 25px;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+  }
+  
+  .snip1527 figcaption:before {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#700877;
+    content:'';
+    background:-moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+    background:-webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+    background:linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+    opacity:0.8;
+    z-index:-1;
+  }
+  
+  .snip1527 .date {
+    background-color:#fff;
+    border-radius:50%;
+    color:#700877;
+    font-size:18px;
+    font-weight:700;
+    min-height:48px;
+    min-width:48px;
+    padding:10px 0;
+    position:absolute;
+    right:15px;
+    text-align:center;
+    text-transform:uppercase;
+    top:-25px;
+  }
+  
+  .snip1527 .date span {
+    display:block;
+    line-height:14px;
+  }
+  
+  .snip1527 .date .month {
+    font-size:11px;
+  }
+  
+  .snip1527 h3, .snip1527 p {
+    margin:0;
+    padding:0;
+  }
+  
+  .snip1527 h3 {
+    display:inline-block;
+    font-weight:700;
+    letter-spacing:-0.4px;
+    margin-bottom:5px;
+  }
+  
+  .snip1527 p {
+    font-size:0.8em;
+    line-height:1.6em;
+    margin-bottom:0px;
+  }
+  
+  .snip1527 a {
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    position:absolute;
+    z-index:1;
+  }
+  
+  .snip1527:hover img, .snip1527.hover img {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+  }
+  
+  img {
+    border-radius:5px;
+  }
+  
+  img {
+    border-radius:5px;
+  }
+  
+  .center-align{
+    margin: auto;
+    width: 91%;
+    padding: 10px;
+  }
+
+  .nav-item{
+    padding-right: 1em;
+  }
+
+
+
+
+  div.jumbotron.carousel-hero {
+    color:#fff;
+    text-align:center;
+    background-size:cover;
+    background-position:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-bottom:0;
+  }
+  
+  div.jumbotron.hero-nature {
+    background-image:url('https://www.whitneyaudubon.com/wp-content/uploads//2017/12/moana_showcase-banner.jpg');
+  }
+  
+  div.jumbotron.hero-photography {
+    background-image:url('https://www.brooklinelibrary.org/wp-content/uploads/2017/09/coco_hero_r_updated_cabed1ce.jpeg');
+  }
+  
+  div.jumbotron.hero-technology {
+    background-image:url('https://cdn.ticketsource.co.uk/images/promoter/banner/03467-1520892387937.jpeg');
+  }
+
+  
+  h1.hero-title, h2.hero-title, h3.hero-title {
+    text-shadow:0 3px 3px rgba(0,0,0,0.4);
+    color:#fff;
+  }
+  
+  p.hero-subtitle {
+    max-width:600px;
+    margin:25px auto;
+    padding:10px 15px;
+    color:#fff;
+  }
+  
+  .carousel-hero{
+    height: 88.6vh;
+  }
+
+  .darkness::before{
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.68);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+  .particle {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1
+}

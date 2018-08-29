@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<br><br>
+<div class="container">
+    <h2>Walt Disney Movies</h2>
+    <div class="center-align">
+    {% for movie in movies %}
+    <figure class="snip1527">
+            <div class="image"><img src={{movie.img}} alt="pr-sample23"></div>
+            <figcaption>
+              
+              <h3>{{movie.title}}</h3>
+              <p>
+                    {{movie.body}} 
+              </p>
+              <br>
+              <p>
+                  Director: {{movie.director}}
+              </p>
+            </figcaption>
+            <a target="_blank" href={{movie.wiki}}></a>
+    </figure>
+       
+    {% endfor %}
+    </div>
+    <p style="height: 0px;" class="snip1527">.</p>
+    </div>
+    
+{% endblock %}

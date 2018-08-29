@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='face.png') }}">
+<title>Disney Movies</title>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="{{ url_for('static', filename='particle.min.js') }}"></script>
+</head>
+
+<script>
+    $(document).ready(function(){
+        
+    particlesJS.load('particles-js', '/static/particle-config.json', function () {});
+
+    $("#myModal").on("hidden.bs.modal",function(){
+      $("#iframeYoutube").attr("src","#");
+    })
+  })
+  function changeVideo(vID){
+    var iframe=document.getElementById("iframeYoutube");
+    iframe.src="https://www.youtube.com/embed/"+vID;
+    $("#myModal").modal("show");
+  }
+</script>
+<body>
+        {% include 'includes/navbar.html' %}
+        <br><br><br>
+        <!-- <div class="container"> -->
+            <div id="particles-js" class="particle"></div>
+            {% block body %}{% endblock %}
+        <!-- </div> -->
+
+
+        <!-- Video Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-body">
+                <iframe id="iframeYoutube" width="465" height="350"  src="" frameborder="0" allowfullscreen></iframe> 
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Video Modal -->
+</body>
+</html>
