@@ -16,7 +16,7 @@ FUNCTIONALITIES:
 2. Page Routing done through python
    
 3. #HOME_PAGE
-   * Displayed some walt-disney movies in carousel 
+   * Displays some walt-disney movies in carousel 
    * Displays corresponding trailer of the movies in modal
    
 4. #MOVIES_PAGE
