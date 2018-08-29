@@ -21,12 +21,12 @@ FUNCTIONALITIES:
    
 4. #MOVIES_PAGE
    * Displays n number of walt-disney movies in cards with details  
-   * Cards datas from JSON data "data.py"
+   * Cards datas from Object file "data.py"
    * Once click any card of the movie, it directs to the corresponding wikipedia page of the movie
    
 4. #UPCOMING_MOVIES_PAGE
    * Displays n number of upcoming walt-disney movies in cards with details
-   * Cards datas from JSON data "upcomingData.py"
+   * Cards datas from Object file "upcomingData.py"
    * Once click any card of the movie, it directs to the corresponding wikipedia page of the movie
  
 
