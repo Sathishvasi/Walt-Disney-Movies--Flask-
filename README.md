@@ -4,7 +4,29 @@ Flask application
 
 Technologies used: Python, pip, Flask, Bootstrap, CSS, Jquery
 
+***SCREENSHOTS***
+
+HOME PAGE:
 ![flask1](https://user-images.githubusercontent.com/19771986/45358797-37529800-b5e8-11e8-851d-890893eb0621.PNG)
+
+
+
+VIEW TRAILER:
+![flask2](https://user-images.githubusercontent.com/19771986/45358902-96181180-b5e8-11e8-9e9a-e96b9ba2052f.PNG)
+
+
+
+MOVIES PAGE with wikipedia redirection:
+![flask3](https://user-images.githubusercontent.com/19771986/45358903-96181180-b5e8-11e8-90dc-6bffd378e222.jpg)
+
+![flask4](https://user-images.githubusercontent.com/19771986/45358904-96181180-b5e8-11e8-9728-7d7bb0cf98c6.png)
+
+
+
+UPCOMING MOVIES PAGE:
+![flask5](https://user-images.githubusercontent.com/19771986/45358901-957f7b00-b5e8-11e8-8f2c-34839461cba8.png)
+
+
 
 
 FUNCTIONALITIES:
