@@ -4,6 +4,7 @@ Flask application
 
 Technologies used: Python, pip, Flask, Bootstrap, CSS, Jquery
 
+![flask1](https://user-images.githubusercontent.com/19771986/45358797-37529800-b5e8-11e8-851d-890893eb0621.PNG)
 
 
 FUNCTIONALITIES:
